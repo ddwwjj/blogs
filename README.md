@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Getting started with github-upload project
 
-You can use the [editor on GitHub](https://github.com/ddwwjj/ddwwjj.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Github is like the Facebook for software engineers. It could be used to well organize knowledges, codes, projects and so on. So let's get started! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Step One - Understanding the github flow
 
-### Markdown
+Branching is a core concept in Git. It allows us to implement different parts or features of one project more easily. During the developing process, we can feel free to commit changes, go back to old stages and collaborate with others. Github working flow description of how branching works.    
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Github Logo](/github_flow.PNG)
+More details see [GitHub flow](https://guides.github.com/introduction/flow/).
 
-```markdown
-Syntax highlighted code block
+### Step Two - Create a repository and upload project
 
-# Header 1
-## Header 2
-### Header 3
+Based on github flow, uploading an existing project is as follows: 
 
-- Bulleted
-- List
+> Create -> Clone -> Copy+Paste -> Add -> commit -> Push
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+#### 1. Create ####
 
-[Link](url) and ![Image](src)
-```
+Create a repository named "homework".
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### 2. Clone ####
 
-### Jekyll Themes
+Select a directory in local computer and clone the newly created repository to that directory.
+> git clone https://github.com/ddwwjj/homework.git
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ddwwjj/ddwwjj.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 3. Copy+Paste ####
 
-### Support or Contact
+Copy the project ready to upload and paste it to the directory 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### 4. Add ####
+
+Add the project to the staging area so that Git could start tracking changes made to that project
+> git add filename (file)
+
+or
+> git add projectname (directory)
+
+#### 5. Commit ####
+
+Commit command is for storing staged changes, it is like a snapshot of the repository.
+> git commid -m "first change"
+
+#### 6. Push ####
+
+The push command tells Git where to put commits when it's ready. Push the changes to master branch.
+> git push origin master
+
+#Date: 10/26/2017
