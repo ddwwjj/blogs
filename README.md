@@ -1,10 +1,12 @@
-## Fight On :punch:
+## FIGHT ON :punch:
 
-Github is like the Facebook for software engineers. It could be used to well organize knowledges, codes, projects and so on. So let's get started! 
+Haven't decided what to say........
 
-### Step One - Understanding the github flow
+### Technique Journal
 
-Branching is a core concept in Git. It allows us to implement different parts or features of one project more easily. During the developing process, we can feel free to commit changes, go back to old stages and collaborate with others. Github working flow description of how branching works.    
+ - [Upload Project to github](https://github.com/ddwwjj/ddwwjj.github.io/issues/2)  
+ - [Regular Expression](https://github.com/ddwwjj/ddwwjj.github.io/issues/1)  
+
 
 ![Github Logo](/github_flow.PNG)
 More details see [GitHub flow](https://guides.github.com/introduction/flow/).
