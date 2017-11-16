@@ -1,4 +1,4 @@
-## Getting started with github-upload project
+## Fight On :punch:
 
 Github is like the Facebook for software engineers. It could be used to well organize knowledges, codes, projects and so on. So let's get started! 
 
